@@ -1,0 +1,17 @@
+zh-CN:
+  format:
+    be_invalid: 是一个无效的
+    required: 必须是
+  api:
+    missing_param: "缺少以下参数: %{param}"
+    invalid_param: "参数值无效: %{param}"
+  type:
+    email: 邮箱地址
+    phone: 手机号
+    numeric: 数字
+    uuid: UUID值
+    uuids: 逗号分隔的多个UUID
+    boolean: Boolean值
+    date_time: 时间(RFC3339)
+    longitude: 经度值
+    latitude: 纬度值

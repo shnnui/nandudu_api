@@ -1,0 +1,26 @@
+zh-CN:
+  apipie:
+    resources: Resources
+    resource: Resource
+    description: 描述
+    no_docs_found: No documentation found
+    no_docs_found_descr: We have not found any documentation for your API.
+    follow_instructions_html: Follow %{href} on how to describe your controllers.
+    follow_instructions_href: further instructions
+    oops: Oops!!
+    resource_not_found_html: Resource %{res} not found.
+    method_not_found_html: Method %{method} not found for resource %{resource}.
+    goto_homepage_html: Try going to %{href}
+    goto_homepage_href: "%{app_name} API documentation homepage"
+    required: 必填
+    optional: 可选
+    nil_allowed: nil allowed
+    param_name: 参数名
+    params: Params
+    examples: 示例
+    metadata: Metadata
+    errors: Errors
+    supported_formats: Supported Formats
+    enable_javascript_html: Please enable JavaScript to view the %{comments_href}.
+    comments_powered_by_disqus: comments powered by %{disqus}
+    api_documentation: 南度度API文档

@@ -3,7 +3,7 @@ set :scm, :rsync
 set :rsync_options, %w[--recursive --delete --delete-excluded --exclude .git*]
 set :build_dir, '../nandudu_build'
 
-set :repo_url, 'ssh://git@github.com:shnnui/nandudu_api.git'
+set :repo_url, 'https://github.com/shnnui/nandudu_api.git'
 set :application,     'nandudu'
 
 # If using Digital Ocean's Ruby on Rails Marketplace framework, your username is 'rails'

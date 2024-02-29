@@ -133,7 +133,7 @@ GEM
     net-ssh (7.2.1)
     netrc (0.11.0)
     nio4r (2.7.0)
-    nokogiri (1.15.5)
+    nokogiri (1.15.5-x86_64-darwin)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     puma (5.2.0)
@@ -226,6 +226,9 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin
+  x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   apipie-rails (~> 0.5.1)
@@ -258,4 +261,4 @@ RUBY VERSION
    ruby 2.7.5p203
 
 BUNDLED WITH
-   2.2.13
+   2.1.4

@@ -39,7 +39,7 @@ set :keep_releases, 5
 set :linked_files, %w{config/database.yml config/secrets.yml .env}
 
 # dirs we want symlinking to shared
-set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/hls public/shared public/graphviz public/attachFiles public/static private/uploads private/export}
+set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/hls public/shared public/graphviz public/attachFiles public/static private/uploads private/export}
 
 namespace :puma do
   Rake::Task[:restart].clear_actions
